@@ -1,0 +1,56 @@
+/* resets */
+input[type="search"] {
+    -webkit-appearance: none;
+}
+/* styles */
+
+html {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+}
+
+nav ul {
+    color: #3e3d45;
+}
+
+li#user {
+    background-color: #0097a7;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+input#searchbar {
+    font-size: 1.2em;
+    padding: .5em 2.5em;
+    border: 1px solid #dfe1e5;
+    border-radius: 1.1em;
+    max-width: 400px;
+}
+
+/* layout */
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em;
+}
+
+nav ul li {
+    display: block;
+    padding: .5em .7em;
+    font-size: .8em;
+}
+
+img, input[type="search"] {
+    display: block;
+    margin: 0 auto;
+}
+
+img { margin-top: 150px; }
+
+input[type="search"] {
+    margin-top: 2rem;
+}
