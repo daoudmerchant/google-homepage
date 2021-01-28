@@ -25,3 +25,11 @@ Although the page does generally look like the Google home page and the challeng
 ---
 
 Having a look at the top rated solution for the project; it does look identical to the original but also the two files are much longer than mine. Considering that I don't think I'm expected to source and embed .svg graphics at this stage, my version seems acceptable. I do now realise, however, that I hadn't noticed the text in the buttons got slightly darker on hover.
+
+---
+
+Nope, can't stop thinking about how I'd implement the microphone, magnifying glass and little box grid. I'll try and steal them from somewhere and put them in.
+
+---
+
+Seems that the reason people have been making two lists in the footer is to stack them when the layout condenses on smaller screens. I'll do this tomorrow.
