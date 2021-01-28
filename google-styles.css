@@ -1,4 +1,5 @@
 /* resets */
+
 input[type="search"], button {
     -webkit-appearance: none;
 }
@@ -27,8 +28,18 @@ li#user {
     font-weight: bold;
 }
 
-nav a:hover {
+nav a:hover, a#lang:hover {
     text-decoration: underline;
+}
+
+p#lang-select {
+    font-size: .8em;
+}
+
+a#lang {
+    display: inline-block;
+    margin-left: .3em;
+    color: #2845d2;
 }
 
 /* search bar styles */
@@ -51,9 +62,13 @@ button {
     border: none;
     font-size: 0.9em;
     background-color: #f8f9fa;
-    margin-top: 2em;
+    margin: 2em .4em;
     padding: 0.8em 1.5em;
     border-radius: 5px;
+}
+
+button[type=submit] {
+    text-transform: capitalize;
 }
 
 /* layout */
@@ -80,4 +95,13 @@ img { margin-top: 150px; }
 
 input[type="search"] {
     margin-top: 2rem;
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+p#lang-select {
+    text-align: center;
 }
