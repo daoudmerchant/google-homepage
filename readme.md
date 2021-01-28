@@ -21,3 +21,7 @@ Although the page does generally look like the Google home page and the challeng
 - Jennifer Neiderst Robbins recommends grouping and labelling CSS declarations, but my initial semantic idea of separating styling and layout declarations went badly, resulting in repeated disparate declarations for the same items. Instead, I opted to deal with declarations grouped chronologically, which makes finding back declarations much easier, but I'm still not sure if there's a more logical way to group my declarations. For example, I generally tried to keep my links in the same place but there are link declarations within the language select block and the footer. I don't currently know how to avoid overlap.
 
 - Generally I'm relatively certain that later I'll be more logical in my use of ids, classes and selectors. With so few elements on the page, it made more sense to just apply a rule to two objects in a list rather than to give them a class, but I may later learn that that's better practice. The footer styles in particular look like there are too many individual declarations but they all seem logical and necessary for the moment.
+
+---
+
+Having a look at the top rated solution for the project; it does look identical to the original but also the two files are much longer than mine. Considering that I don't think I'm expected to source and embed .svg graphics at this stage, my version seems acceptable. I do now realise, however, that I hadn't noticed the text in the buttons got slightly darker on hover.
