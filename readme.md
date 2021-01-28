@@ -4,7 +4,7 @@ I have some experience in HTML and CSS but will need to refresh my positioning a
 
 ---
 
-This task was about as challenging as I expected it to be; I found myself Googling a lot of things I'd already covered in Learning Web Design, but it was to remind myself of the attributes and values rather than to understand a concept. It was handy remembering the trick to 'push' flex items to either side of a container, and in general I knew when to apply which positioning approach.
+This task was about as challenging as I expected it to be; I found myself Googling a lot of things I'd already covered in Learning Web Design, but it was to remind myself of the attributes and values rather than to understand a concept. It was handy remembering the trick to 'push' flex items to either side of a container, and in general I knew when to apply which positioning approach. I'm proud not to have needed to look at the original homepage in developer tools even once, but that may explain if my solutions aren't the most logical.
 
 Although the page does generally look like the Google home page and the challenge was specifically *not* to spend too much time tweaking pixels, I noticed the following problems on which I could spend more time either to come up with a solution or improve the applied solution:
 
