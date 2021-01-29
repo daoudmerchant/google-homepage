@@ -68,7 +68,7 @@ input[type="search"] {
     padding: .5em 2.5em;
     border: 1px solid #dfe1e5;
     border-radius: 1.1em;
-    width: 600px;
+    width: 500px;
     background-image: url(images/magglass.png), url(images/mic.png);
     background-repeat: no-repeat, no-repeat;
     background-size: 1em, .75em;
@@ -89,6 +89,7 @@ input[type="search"]:hover {
 button {
     border: none;
     font-size: 0.9em;
+    color: #3e3d45;
     background-color: #f8f9fa;
     border: 1px solid transparent;
     margin: 2em .4em;
@@ -103,6 +104,7 @@ button[type=submit] {
 
 button:hover {
     border: 1px solid #dfe1e5;
+    color: #000000;
     box-shadow: #dfe1e5 0px 2px 5px;
 }
 
@@ -147,26 +149,84 @@ p#country {
     flex-direction: column;
 }
 
-ul#footer-links {
+#footer-links-container {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+}
+
+ul#footer-info-links, ul#footer-settings-links {
     display: flex;
     justify-content: space-evenly;
 }
 
-footer p#country, ul#footer-links li {
+footer p#country, #footer-links-container li {
     padding: 1em;
 }
- 
-ul#footer-links li:nth-child(4) {
-    margin-right: auto;
-}
 
-ul#footer-links li:first-child {
+ul#footer-info-links li:first-child {
     padding-left: 2em;
 }
 
-ul#footer-links li:last-child {
+ul#footer-settings-links li:last-child {
     padding-right: 2em;
 }
 
 /* responsive rules */
 
+@media only screen and (max-width: 805px) {
+    #footer-links-container {
+        flex-direction: column-reverse;
+    }
+
+    ul#footer-info-links, ul#footer-settings-links {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-height: 768px) {
+    img { margin-top: 50px; }
+}
+
+@media only screen and (max-height: 575px) {
+    footer {
+        position: initial;
+        bottom: initial;
+    }
+        
+    p#lang-select {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    input[type="search"] {
+        max-width: 100%;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}
+
+@media only screen and (max-height: 536px) {
+    img {
+        margin-top: 0;
+        width: 220px;
+        height: auto;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@media only screen and (max-height: 468px) {
+    footer {
+        position: initial;
+        bottom: initial;
+    }
+        
+    p#lang-select {
+        margin-bottom: 13px;
+    }
+}
