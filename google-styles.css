@@ -201,9 +201,7 @@ ul#footer-settings-links li:last-child {
 
 @media only screen and (max-width: 550px) {
     input[type="search"] {
-        max-width: 100%;
-        margin-left: 25px;
-        margin-right: 25px;
+        width: calc(100% - 50px);
     }
 }
 
